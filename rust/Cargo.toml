@@ -1,0 +1,14 @@
+# https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+resolver = "2"
+members = ["sunface-course"]
+
+[workspace.package]
+authors = ["stanleyguo0207 <stanleyguo0207@163.com>"]
+edition = "2021"
+rust-version = "1.81.0"
+readme = "README.md"
+repository = "https://github.com/stanleyguo0207/loong-prac"
+license = "MIT"
+categories = []

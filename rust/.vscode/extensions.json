@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "dracula-theme.theme-dracula",
+    "1yib.rust-bundle",
+    "editorconfig.editor",
+    "tamasfe.even-better-toml",
+    "redhat.vscode-xml",
+    "redhat.vscode-yaml",
+    "actboy168.tasks",
+    "gruntfuggly.todo-tree",
+    "bierner.markdown-preview-github-styles",
+    "yzhang.markdown-all-in-one",
+    "berublan.vscode-log-viewer",
+    "usernamehw.errorlens",
+    "vscode-icons-team.vscode-icons",
+    "eamodio.gitlens",
+    "vadimcn.vscode-lldb",
+  ]
+}

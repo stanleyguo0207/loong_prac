@@ -1,0 +1,5 @@
+# rustup component add clippy
+# https://github.com/rust-lang/rust-clippy
+# https://doc.rust-lang.org/clippy/configuration.html
+
+msrv = "1.81.0"
