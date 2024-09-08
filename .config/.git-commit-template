@@ -1,7 +1,5 @@
 #<type>[optional scope]: <description>
-
 #[optional body]
-
 #[optional footer(s)]
 Signed-off-by: stanleyguo0207 <stanleyguo0207@163.com>
 # https://www.conventionalcommits.org/en/v1.0.0/
