@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "rust: sunface-course-clippy",
+      "type": "cargo",
+      "command": "clippy",
+      "problemMatcher": [
+        "$rustc"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/rust/sunface-course"
+      },
+      "hide": true
+    },
+    {
+      "label": "rust: sunface-course",
+      "type": "shell",
+      "command": "bash ./run.sh -e ${input:sunface-course-example}",
+      "options": {
+        "cwd": "${workspaceFolder}/rust/sunface-course"
+      },
+      "dependsOn": "rust: sunface-course-clippy"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "sunface-course-example",
+      "description": "Please enter a example",
+      "default": "hello",
+      "type": "promptString"
+    }
+  ]
+}

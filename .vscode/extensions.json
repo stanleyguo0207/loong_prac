@@ -1,7 +1,7 @@
 {
   "recommendations": [
     "dracula-theme.theme-dracula",
-    "1yib.rust-bundle",
+    "rust-lang.rust-analyzer",
     "editorconfig.editor",
     "tamasfe.even-better-toml",
     "redhat.vscode-xml",
@@ -15,5 +15,9 @@
     "vscode-icons-team.vscode-icons",
     "eamodio.gitlens",
     "vadimcn.vscode-lldb",
+    "joshbolduc.commitlint",
+    "dustypomerleau.rust-syntax",
+    "fill-labs.dependi",
+    "ritwickdey.liveserver"
   ]
 }
