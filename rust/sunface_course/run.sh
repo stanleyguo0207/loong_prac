@@ -13,12 +13,18 @@ EOF
   exit 1
 }
 
-while getopts ":e:" arg; do
+while getopts ":e:rh" arg; do
   case $arg in
-  e )
+  e)
     example=${OPTARG}
     ;;
-  \? )
+  r)
+    release="--release"
+    ;;
+  h)
+    usage
+    ;;
+  \?)
     echo "Invalid parameter     -${OPTARG}"
     usage
     ;;
@@ -32,4 +38,4 @@ fi
 
 cargo clippy
 cargo check
-cargo run --example $example
+cargo run $release --example $example

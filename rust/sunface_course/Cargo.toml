@@ -17,3 +17,7 @@ categories.workspace = true
 [[example]]
 name = "hello"
 path = "examples/hello/main.rs"
+
+[[example]]
+name = "penguin"
+path = "examples/penguin/main.rs"
