@@ -15,20 +15,21 @@ EOF
 
 while getopts ":e:" arg; do
   case $arg in
-  e)
+  e )
     example=${OPTARG}
     ;;
-  \?)
+  \? )
     echo "Invalid parameter     -${OPTARG}"
     usage
     ;;
   esac
 done
 
-if [[ ! -e $example ]];then
-  echo "target is empty."
+if [[ -z $example ]]; then
+  echo "target is empty. example $example"
   usage
 fi
 
 cargo clippy
+cargo check
 cargo run --example $example

@@ -16,4 +16,4 @@ categories.workspace = true
 
 [[example]]
 name = "hello"
-path = "hello/main.rs"
+path = "examples/hello/main.rs"

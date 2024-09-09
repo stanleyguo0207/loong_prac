@@ -1,4 +1,5 @@
 {
+  // editor
   "editor.formatOnSave": true,
   "editor.rulers": [
     100
@@ -6,10 +7,13 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.minimap.maxColumn": 100,
+  // debug
+  "debug.allowBreakpointsEverywhere": true,
+  //git
+  "git.useEditorAsCommitInput": true,
+  "git.terminalGitEditor": true,
+  //rust
   "rust-analyzer.server.extraEnv": {
     "CARGO_UNSTABLE_SPARSE_REGISTRY": "true",
   },
-  "debug.allowBreakpointsEverywhere": true,
-  "git.useEditorAsCommitInput": true,
-  "git.terminalGitEditor": true,
 }
