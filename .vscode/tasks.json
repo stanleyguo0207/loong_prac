@@ -2,17 +2,17 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "rust: sunface-course",
+      "label": "rust: sunface_course",
       "type": "shell",
-      "command": "bash ./run.sh -e ${input:sunface-course-example}",
+      "command": "bash ./run.sh -e ${input:sunface_course-example}",
       "options": {
-        "cwd": "${workspaceFolder}/rust/sunface-course"
+        "cwd": "${workspaceFolder}/rust/sunface_course"
       },
     },
   ],
   "inputs": [
     {
-      "id": "sunface-course-example",
+      "id": "sunface_course-example",
       "description": "Please enter a example",
       "default": "hello",
       "type": "promptString"
