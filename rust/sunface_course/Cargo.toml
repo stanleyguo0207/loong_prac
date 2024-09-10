@@ -11,6 +11,7 @@ license.workspace = true
 categories.workspace = true
 
 [dev-dependencies]
+num = "0.4.0"
 
 [dependencies]
 
@@ -21,3 +22,11 @@ path = "examples/hello/main.rs"
 [[example]]
 name = "penguin"
 path = "examples/penguin/main.rs"
+
+[[example]]
+name = "float"
+path = "examples/float/main.rs"
+
+[[example]]
+name = "complex_num"
+path = "examples/complex_num/main.rs"
