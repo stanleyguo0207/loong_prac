@@ -15,22 +15,6 @@ num = "0.4.0"
 
 [dependencies]
 
-[[example]]
-name = "hello"
-path = "examples/hello/main.rs"
-
-[[example]]
-name = "penguin"
-path = "examples/penguin/main.rs"
-
-[[example]]
-name = "float"
-path = "examples/float/main.rs"
-
-[[example]]
-name = "complex_num"
-path = "examples/complex_num/main.rs"
-
-[[example]]
-name = "num11"
-path = "examples/num11/main.rs"
+# [[example]]
+# name = "hello"
+# path = "examples/hello/main.rs"
