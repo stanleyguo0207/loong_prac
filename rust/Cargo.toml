@@ -2,7 +2,7 @@
 
 [workspace]
 resolver = "2"
-members = ["sunface_course"]
+members = ["hello_macro", "sunface_course"]
 
 [workspace.package]
 authors = ["stanleyguo0207 <stanleyguo0207@163.com>"]
