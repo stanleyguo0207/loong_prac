@@ -1,0 +1,14 @@
+[package]
+name = "my_redis"
+version = "0.1.0"
+authors.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+readme.workspace = true
+repository.workspace = true
+license.workspace = true
+categories.workspace = true
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+mini-redis = "0.4"
